@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light" />
+
+    <color name="dark_bg">#aaa</color>
+    <color name="light_bg">#ddd</color>
+    <color name="online">#ddd</color>
+    <color name="offline">#bbb</color>
+    <color name="orange">#f80</color>
+    <color name="blue">#08f</color>
+    <color name="grey">#666</color>
+    <color name="blue_light">#aa33b5e5</color>
+    <color name="blue_bright">#aa64b1ea</color>
+
+    <style name="button_bg">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@drawable/text_bg</item>
+    </style>
+
+</resources>

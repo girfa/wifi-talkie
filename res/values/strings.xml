@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFi Talkie</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="menu">Menu</string>
+    <string name="talkies">Talkies</string>
+    <string name="chat">Chat</string>
+    <string name="files">Files</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="cont_help">WiFi Talkie is a communication tool as a replacement of Handy Talkie that generally used by the security staff.\n\nTo start using WiFi Talkie, first you have to be connected to a Wi-Fi Access Point. After that WiFi Talkie will search all the available device which is connected to the Access Point you connected. Then WiFi Talkie will list all the device found on the Talkies menu along with the information of each the device including name, status, device name, device model, and also the position of the device if available. And now you are able to send audio, text or files to all the connected device.\n\nIf you want to add more Wi-Fi network just go to Settings and add the network reachable to you.</string>
+    <string name="cont_about">WiFi Talkie\nVersion : 1.1\nDeveloper : Girfa eSuite\nEmail : admin@girfa.com\nSupported by : STMIK Amikom Yogyakarta</string>
+    <string name="send">Send</string>
+    <string name="profile">Profile</string>
+    <string name="general">General</string>
+    <string name="key_port">port</string>
+    <string name="key_toggle">running</string>
+    <string name="key_wifi">wifi_connected</string>
+    <string name="key_show">show_offline</string>
+    <string name="key_name">name</string>
+    <string name="key_status">status</string>
+    <string name="key_mac">mac</string>
+    <string name="key_ptt">ptt</string>
+    <string name="ttl_port">Port</string>
+    <string name="ttl_show">Show Offline</string>
+    <string name="ttl_name">Display Name</string>
+    <string name="ttl_status">Status Message</string>
+    <string name="sum_show">Show offline Talkies</string>
+    <string name="def_name">No Name</string>
+    <string name="def_status">Online</string>
+    <string name="def_device">Unknown</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="ws_turnon">Turn On Wifi!</string>
+    <string name="ws_connect">Connect Wifi!</string>
+    <string name="chat_when">Sent %1$s from %2$s</string>
+    <string name="talkies_ptt">Push To Talk (PTT)</string>
+    <string name="talkies_lock">LOCK</string>
+    <string name="dev_mode">This menu is currently in development</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/toggle"
+        android:icon="@drawable/ab_start"
+        android:title="@string/start"
+        app:showAsAction="always|withText"/>
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ab_overflow"
+        android:title="@string/menu"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="@string/settings"/>
+            <item
+                android:id="@+id/help"
+                android:title="@string/help"/>
+            <item
+                android:id="@+id/about"
+                android:title="@string/about"/>
+        </menu>
+    </item>
+
+</menu>

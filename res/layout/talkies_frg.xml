@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_bg" >
+
+    <View
+        android:id="@+id/talkies_sparator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/talkies_wrap"
+        android:background="@color/dark_bg" />
+
+    <LinearLayout
+        android:id="@+id/talkies_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff" >
+
+        <CheckBox
+            android:id="@+id/talkies_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/talkies_lock" />
+
+        <Button
+            android:id="@+id/talkies_ptt"
+            style="@style/button_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/talkies_ptt" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/talkies_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/talkies_sparator"
+        android:layout_alignParentLeft="true"
+        android:drawSelectorOnTop="true" >
+    </ListView>
+
+</RelativeLayout>

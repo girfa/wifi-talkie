@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/profile" >
+        <EditTextPreference
+            android:dialogTitle="@string/ttl_name"
+            android:inputType="textCapWords"
+            android:key="@string/key_name"
+            android:title="@string/ttl_name" />
+        <EditTextPreference
+            android:dialogTitle="@string/ttl_status"
+            android:key="@string/key_status"
+            android:title="@string/ttl_status" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/general" >
+        <EditTextPreference
+            android:dialogTitle="@string/ttl_port"
+            android:key="@string/key_port"
+            android:title="@string/ttl_port" />
+
+        <CheckBoxPreference
+            android:dialogTitle="@string/ttl_show"
+            android:key="@string/key_show"
+            android:summary="@string/sum_show"
+            android:title="@string/ttl_show" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
